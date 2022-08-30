@@ -1,0 +1,100 @@
+@media all and (max-width:1000px){
+    .container {
+        padding: 0;
+    }
+
+    .opening {
+        padding-left: 10px;
+    }
+
+    .list-menu-food, .list-menu-drink{
+        padding-left: 0;
+    }
+    .biodata  {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .header-list-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media all and (max-width:480px){
+
+    .opening p {
+        font-size: 25px;
+    }
+
+    .list-menu-food {
+        align-items: none;
+    }
+
+    .orange {
+        font-size: 50px;
+    }
+    .white {
+        font-size: 35px;
+    }
+
+    .list-menu-item {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 350px;
+    }
+
+    .list-menu-item a{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list-name h3, h4 {
+        padding-top: 20px;
+    }
+
+    .biodata {
+        border: 3px solid orangered;
+        padding-left: 40px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        align-items: center;
+        height: 140px;
+    }
+
+    ul{
+        padding-top: 5px;
+        padding-left: 0;
+    }
+
+    ul li {
+        margin: 0 auto ;
+        border-bottom: 1px solid orange;
+    }
+
+    ul li a {
+        margin-left: 0;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    .about {
+        padding: 5px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+}
